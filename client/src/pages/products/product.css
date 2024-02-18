@@ -1,0 +1,20 @@
+.title:focus{
+    box-shadow: 0 0 0 0;
+    border-color: black;
+}
+.category:focus{
+    box-shadow: 0 0 0 0;
+    border-color: black;
+ }
+.desc:focus{
+    box-shadow: 0 0 0 0;
+    border-color: black;
+}
+.price:focus{
+    box-shadow: 0 0 0 0;
+    border-color: black;
+}
+.loc:focus{
+    box-shadow: 0 0 0 0;
+    border-color: black;
+}
