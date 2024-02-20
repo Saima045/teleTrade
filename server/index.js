@@ -16,6 +16,11 @@ const app=express()
 
 // use cors middleware to allow cross site requests
 app.use(cors())
+// app.use(cors(
+//     {
+
+//     }
+//))
 
 
 // connect to the database
