@@ -18,7 +18,7 @@ const app=express()
 //app.use(cors())
 app.use(cors(
     {
-        origin:['https://tele-trade-frontend.vercel.app/'],
+        origin:['https://tele-trade-frontend.vercel.app'],
         methods:["POST","GET"],
         credentials:true
 
