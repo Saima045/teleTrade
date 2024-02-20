@@ -43,5 +43,5 @@ app.use('/api/product/', require('./routes/productRoutes'))
 app.use(errorHandler)
 
 
-
-app.listen(process.env.PORT, () => console.log(`server started on port ${process.env.PORT.blue}`))
+app.listen()
+//app.listen(process.env.PORT, () => console.log(`server started on port ${process.env.PORT.blue}`))
