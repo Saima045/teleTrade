@@ -1,6 +1,7 @@
 import axios from 'axios';
 // base url
-const base_url = 'http://localhost:5174/api/category';
+//const base_url = 'http://localhost:5174/api/category';
+const base_url = 'https:teletradeapi.vercel.app/api/category';
 
 // request to the server for registration
 

@@ -1,6 +1,7 @@
 import axios from 'axios';
 // base url
-const base_url = 'http://localhost:5174/api/product';
+//const base_url = 'http://localhost:5174/api/product';
+const base_url = 'https:teletradeapi.vercel.app/api/product';
 
 // request to the server for registration
 
@@ -57,7 +58,7 @@ const getProdsUserSerc = async (data) => {
 const listProductsSearch = async (data) => {
   
   //  console.log(data)
-    const response = await axios.get(`${base_url}/get-search-products`, {
+     const response = await axios.get(`${base_url}/get-search-products`, {
       params: data // Assuming `data` is an object containing your query parameters
     });
    // console.log(response.data)
